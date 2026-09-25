@@ -60,7 +60,7 @@ Run with an `input.txt` file in the current folder:
 
 ```powershell
 docker run --rm --platform linux/amd64 `
-  -v "${PWD.Path}:/work" `
+  -v "${PWD}:/work" `
   -w /work `
   ghcr.io/fub-planetary-geodynamics/chic_docker:v2_23_sep_2026-amd64
 ```
